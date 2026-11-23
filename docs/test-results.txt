@@ -1,0 +1,17 @@
+Tests run on macOS
+
+Instructor CSV:
+  Input: 36056
+  Rejected by validation: 4
+  Removed by duplicate policy: 0
+  Retained: 36052
+  Monthly and endpoint reports matched separately verified outputs byte for byte.
+
+Synthetic duplicate test:
+  One redundant AAA row removed.
+  Both conflicting BBB rows excluded.
+
+Failure cases:
+  PASS missing (exit 2)
+  PASS bad-header (exit 2)
+  PASS all-invalid (exit 4)
