@@ -1,0 +1,14 @@
+# Raw input stays local.
+/data/
+/prices*.csv
+
+# Generated row-level data and temporary processing files.
+/results/cleaned-data/
+/results/diagnostics/
+/.dataalchemists-*/
+*.lock/
+
+# Submission archives and Mac metadata.
+*.zip
+.DS_Store
+__MACOSX/
